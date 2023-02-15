@@ -160,20 +160,17 @@ main a:hover {
   background-size: cover;
   background-position: center;
 }
-
-.nright {
+.nleft .nright {
   height: auto;
   width: 100%;
   background-color: #fff;
   padding: 20px;
   border: 20px;
 }
-
-.nright p {
+.nleft .nright p {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
-
-.nright h3 {
+.nleft .nright h3 {
   text-align: center;
   font-size: 35px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;

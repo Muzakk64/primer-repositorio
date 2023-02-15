@@ -1,0 +1,125 @@
+h2 {
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: rgb(255, 254, 254);
+    text-shadow: 0 0 10px rgb(255, 255, 255);
+    padding: 10px;
+    text-transform: capitalize;
+  }
+
+.galeria {
+    height: auto;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(8, 200px);
+    grid-gap: 20px;
+    padding: 20px;
+    background-image: url(img/fondo\ total.jpg);
+  }
+  .galeria .item {
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+  }
+  .galeria .item1 {
+    background-image: url(img/as\ 7.jpg);
+  }
+  .galeria .item2 {
+    background-image: url(img/zapas\ 1.jpg);
+  }
+  .galeria .item3 {
+    background-image: url(img/zapas\ 2.jfif);
+  }
+  .galeria .item4 {
+    background-image: url(img/zapas\ 3.jfif);
+  }
+  .galeria .item5 {
+    background-image: url(img/zapas\ 4.jfif);
+  }
+  .galeria .item6 {
+    background-image: url(img/zapas\ 5.jfif);
+  }
+  .galeria .item7 {
+    background-image: url(img/zapas\ 6.jfif);
+  }
+  .galeria .item8 {
+    background-image: url(img/zapas\ 8.jfif);
+  }
+  
+  @media only screen and (min-width: 480px) {
+    .galeria {
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: repeat(4, 200px);
+    }
+    .nosotros {
+      display: flex;
+    }
+    .nright, .nleft {
+      width: 50%;
+    }
+  }
+  @media only screen and (min-width: 768px) {
+    .galeria {
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+    .item1 {
+      grid-column: 2/4;
+      grid-row: 1/2;
+    }
+    .item2 {
+      grid-column: 4/6;
+      grid-row: 1/2;
+    }
+    .item3 {
+      grid-column: 2/4;
+      grid-row: 2/3;
+    }
+    .item4 {
+      grid-column: 4/6;
+      grid-row: 2/3;
+    }
+    .item5 {
+      grid-column: 2/4;
+      grid-row: 3/4;
+    }
+    .item6 {
+      grid-column: 4/6;
+      grid-row: 3/4;
+    }
+    .item7 {
+      grid-column: 2/4;
+      grid-row: 4/5;
+    }
+    .item8 {
+      grid-column: 4/6;
+      grid-row: 4/5;
+    }
+  }
+
+  footer{
+    height: 120px;
+    text-align: center;
+    font-size: 20px;
+    background-color: black;
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+}
+
+
+footer p{
+    margin-bottom: 10px;
+}
+
+footer i{
+    font-size: 40px;
+    letter-spacing: 10px;
+    color: rgb(255, 255, 255);
+}
+
+footer i:hover {
+    color: rgb(0, 0, 167);
+  }

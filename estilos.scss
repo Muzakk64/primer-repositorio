@@ -173,28 +173,30 @@ main a:hover{
     background-image: url(img/shoes\ jordan.jpg);
     background-size: cover;
     background-position: center;
-}
 
-.nright{
-    height: auto;
-    width: 100%;
-    background-color: #fff;
-    padding: 20px;
-    border: 20px;
-}
 
-.nright p{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
+    .nright{
+        height: auto;
+        width: 100%;
+        background-color: #fff;
+        padding: 20px;
+        border: 20px;
+    }
 
-.nright h3{
-    text-align: center;
-    font-size: 35px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-transform: capitalize;
-    border: 20px;
-    color: white;
-    text-shadow: 0 0 5px black;
+    .nright p{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .nright h3{
+        text-align: center;
+        font-size: 35px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-transform: capitalize;
+        border: 20px;
+        color: white;
+        text-shadow: 0 0 5px black;
+    }
+
 }
 
 h1{
@@ -211,6 +213,7 @@ h2{
     text-transform: capitalize;
 }
 
+
 .galeria{
     height: auto;
     width: 100%;
@@ -226,38 +229,38 @@ h2{
         background-position: center;
     }
     
-    .item1{
-        background-image: url(img/shoesss\ sneakersnike.jpg)
-    }
+        .item1{
+            background-image: url(img/shoesss\ sneakersnike.jpg)
+        }
     
-    .item2{
-        background-image: url(img/84988614-8c20-4948-a594-8bd98f3e5f9e.jfif);
-    }
+            .item2{
+                background-image: url(img/84988614-8c20-4948-a594-8bd98f3e5f9e.jfif);
+            }
+            
+                .item3{
+                    background-image: url(img/_\ 𝐩𝐢𝐧𝐭𝐞𝐫𝐞𝐬𝐭_\ @𝐝𝐨𝐛𝐫𝐢𝐢𝐧\ _.jfif);
+                }
     
-    .item3{
-        background-image: url(img/_\ 𝐩𝐢𝐧𝐭𝐞𝐫𝐞𝐬𝐭_\ @𝐝𝐨𝐛𝐫𝐢𝐢𝐧\ _.jfif);
-    }
-    
-    .item4{
-        background-image: url(img/air\ force\ multicolor\ shoes.jpg);
-    }
-    
-    .item5{
-        background-image: url(img/shoes\ nike\ airforce.jpg);
-    }
-    
-    .item6{
-        background-image: url(img/Locos\ enamorados©\ [Payton\ Moormeier].jfif);
-    }
-    
-    .item7{
-        background-image: url(img/Nike\ Air\ Vapormax\ Flyknit.jfif);
-    }
-    
-    .item8{
-        background-image: url(img/shoes\ nike\ running.jpg);
-    }
-    
+                    .item4{
+                        background-image: url(img/air\ force\ multicolor\ shoes.jpg);
+                    }
+                    
+                        .item5{
+                            background-image: url(img/shoes\ nike\ airforce.jpg);
+                        }
+                        
+                            .item6{
+                                background-image: url(img/Locos\ enamorados©\ [Payton\ Moormeier].jfif);
+                            }
+                            
+                                .item7{
+                                    background-image: url(img/Nike\ Air\ Vapormax\ Flyknit.jfif);
+                                }
+                                
+                                    .item8{
+                                        background-image: url(img/shoes\ nike\ running.jpg);
+                                    }
+                                    
 }
 
 
